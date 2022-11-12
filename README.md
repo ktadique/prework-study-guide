@@ -2,9 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-This Prework Study Guide was created for the use of bootcamp students currently going through the Prework assignments. This guide was created to document useful tips regarding the code topics learned during Prework and as a way of putting what was learned into practice.
+This Prework Study Guide was created for the use of bootcamp students currently going through the Prework assignments. This guide was created to document useful tips regarding the code topics learned during Prework and as a way of putting what was learned into practice in a structured and easily readable manner.
 
 ## Installation
 
