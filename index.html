@@ -33,15 +33,15 @@
           <li>
             Some of the head elements include:
             <ul>
-              <li>title - defines the title of a webpage</li>
-              <li>style - defines the CSS style associated to webpage</li>
-              <li>base - defiens the base URL for a webpage,</li>
-              <li>link - connects an external resource to the HTML document</li>
+              <li>title: defines the title of a webpage</li>
+              <li>style: defines the CSS style associated to webpage</li>
+              <li>base: defiens the base URL for a webpage,</li>
+              <li>link: connects an external resource to the HTML document</li>
               <li>
-                meta - defines the metadata such as character set, descriptions
+                meta: defines the metadata such as character set, descriptions
                 and keywords for the website
               </li>
-              <li>script - embeds client-side scripts in the HTML document</li>
+              <li>script: embeds client-side scripts in the HTML document</li>
             </ul>
           </li>
           <li>
@@ -59,21 +59,21 @@
           <li>Some of the body elements include:</li>
           <ul>
             <li>
-              h1-h6 - represents the level of the heading a given text block
+              h1-h6: represents the level of the heading a given text block
               represents with 'h1' being the largest
             </li>
-            <li>p - represents a paragraph or text block</li>
+            <li>p: represents a paragraph or text block</li>
             <li>
-              ul, ol, li - the elements represent unordered, ordered and list
+              ul, ol, li: the elements represent unordered, ordered and list
               items respectively and create bullet or numbered lists
             </li>
             <li>
-              img - contains information about images displayed on the webpage
+              img: contains information about images displayed on the webpage
               and contain attributes within it such as src (the location of the
               image), the alt text and the width and height
             </li>
             <li>
-              br - creates a line of empty space or a line break between two
+              br: creates a line of empty space or a line break between two
               content blocks
             </li>
           </ul>
@@ -83,6 +83,31 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>
+            It is possible to style an element directly in the HTML file using
+            inline CSS. This internal stylesheet contains CSS rules within the
+            head section of a HTML file.
+          </li>
+          <li>
+            It is important to consider seperation of concerns however as each
+            section of code should have its own responsiblity
+          </li>
+          <li>
+            To link the external style sheet to a html file, we use a link
+            element. This element contains two attributes rel ( the relationship
+            of the document with the linked source) and href (specifies location
+            of the external resource)
+          </li>
+          <li>A CSS rule consists of a selector and a declaration block</li>
+          <li>
+            A period preceding a section class title designates it as a class
+            selector (eg .card). Any html elements assigned to the class will
+            gain property assignments from the CSS
+          </li>
+          <li>
+            Assigning colors in CSS can be done in many ways, including by
+            semantic references such as gray or blue or by its hexadecimal code
+          </li>
           <li>
             A margin indicates how much space we want around the outside of an
             element.
@@ -98,6 +123,10 @@
         <h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently on</li>
+          <li>git add -A: stages and commits the all files within the branch</li>
+          <li>git commit -m “<your message here>”: -m flag adds a commit message and commits files locally</li>
+          <li>git pull origin main: pulls any changes from the current branch to ensure everything is up to date</li>
+          <li>git push origin branch-name: pushes any changes to github</li>
           <li>
             git checkout -b branch-name: creates a new branch and switches to it
           </li>
